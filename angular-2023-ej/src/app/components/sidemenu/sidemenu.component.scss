@@ -1,0 +1,115 @@
+.navigation{
+    display: flex;
+    position: fixed;
+    top:20px;
+    left: 30px;
+    bottom: 20px;
+    width: 260px;
+    background: black;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    
+
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 200,
+  'GRAD' 0,
+  'opsz' 48;
+  
+  padding-left: 10px;
+  padding-top: 4px;
+  
+}
+
+.navigation ul {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    padding-left: 8px;
+    padding-top: 40px;
+   
+}
+
+.navigation ul li{
+    position: relative;
+    list-style: none;
+      
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px ;
+}
+
+.navigation ul li.active{
+    background: white;
+    
+}
+.navigation ul li b:nth-child(1){
+    position: absolute;
+    top:-10px;
+    height: 10px;
+    width: 100%;
+    background: white;
+    display: none;
+}
+.navigation ul li b:nth-child(1)::before{
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 97%;
+    border-bottom-right-radius: 20px;
+    background: black;
+}
+
+.navigation ul li b:nth-child(2){
+    position: absolute;
+    bottom:-10px;
+    height: 10px;
+    width: 100%;
+    background: white;
+    display: none;
+}
+.navigation ul li b:nth-child(2)::before{
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 97%;
+    border-top-right-radius: 20px;
+    background: black;
+}
+
+.navigation ul li.active b:nth-child(1),
+.navigation ul li.active b:nth-child(2){
+    display: block;
+}
+
+.navigation ul li a {
+    position: relative;
+    
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+
+.navigation ul li.active a {
+    color: blue;
+}
+
+.navigation ul li a .tittle {
+    position: relative;
+    padding-left: 30px;
+    height: 30px;
+    line-height: 30px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    
+}

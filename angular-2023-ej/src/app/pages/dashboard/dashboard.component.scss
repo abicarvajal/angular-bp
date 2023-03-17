@@ -1,0 +1,152 @@
+button {
+    height: 70px;
+    width: 180px;
+    border: none;       
+    border-radius: 0.2cm;
+    font-family: 'Kanit', sans-serif;
+    cursor: pointer;    
+}
+
+.buttons_row{
+    display: flex;
+    flex-direction: row;         
+}
+
+
+h2, h1{
+    font-family: 'Inter', sans-serif;
+}
+
+.button_1{
+   
+    background: #A7A8EB;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+                
+    
+}
+
+.button_2{
+    background: #f7c2c2;
+    color: red;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+               
+
+}
+.button_3{
+    background: #F5CBA7 ;
+    color: orange;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+               
+    
+}
+
+.btn_listening{
+    width: 35px;
+    height: 35px;
+    background-color: orange ;
+}
+.btn_Grammar{
+    width: 35px;
+    height: 35px;
+    background-color: #EC7063  ;
+}
+.btn_Pronuncation{
+    width: 35px;
+    height: 35px;
+    background-color: #3498DB ;
+}
+.btn_Diccionary{
+    width: 35px;
+    height: 35px;
+    background-color: #82E0AA ;
+}
+
+.progress_class{
+ display: flex;
+ flex-direction: row;
+ margin-top: 30px;
+ padding-left: 30px;
+border: 1px solid  #D7DBDD ;
+border-radius: 4px;
+height: 120px;
+width: 110px;   
+
+}
+
+.container_class{
+    display: flex;
+    flex-direction: column;
+        
+     
+}
+
+.container_class1{
+    display: flex;
+    flex-direction: row;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    justify-content: space-between;
+}
+.tittle_dashboard{
+    display: flex;
+
+}
+
+.class{
+    display: flex;
+    flex-direction: row;
+    padding-left: 140px;
+    
+}
+
+.class_2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.class_1{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.table{
+    padding-top: 40px;
+}
+
+table{   
+    
+    text-align: left;
+    background-color: white;
+    border-collapse: collapse;     
+    
+}
+
+th, td{
+    padding: 15px;
+    border-radius: 5px;
+}
+
+ thead{
+    background-color: #E5E7E9 ;
+    color: black; 
+    border-radius: 3px; 
+}
+
+.container_buttlist{
+    display: flex;
+    flex-direction: row;
+}
