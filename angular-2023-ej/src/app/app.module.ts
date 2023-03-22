@@ -6,18 +6,19 @@ import { AppComponent } from './app.component';
 import { SidemenuComponent } from './components/sidemenu/sidemenu.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { RidesComponent } from './pages/rides/rides.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SidemenuComponent,
     DashboardComponent,
-    RidesComponent
+    RidesComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-
   ],
   providers: [],
   bootstrap: [AppComponent]
